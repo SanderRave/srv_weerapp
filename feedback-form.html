@@ -3,27 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback - Coastal Rowing PWA</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>
-        <h1>Feedback Form</h1>
-    </header>
-    
-    <section id="feedback">
-        <form action="https://formspree.io/f/{your-form-id}" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="feedback">Your Feedback:</label>
-            <textarea id="feedback" name="feedback" rows="5" required></textarea>
-
-            <button type="submit">Submit Feedback</button>
-        </form>
-    </section>
+    <div class="App">
+        <header class="App-header">
+            <div class="header-container">
+                <img src="./logo512.png" class="App-logo" alt="Club Logo" />
+                <h1>Feedback Form</h1>
+            </div>
+        </header>
+        <main>
+            <section id="feedback-form">
+                <h2>We Value Your Feedback</h2>
+                <form action="thank-you.html" method="post" id="feedback-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback">Your Feedback:</label>
+                        <textarea id="feedback" name="feedback" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <h3><a href="./index.html">Back to Weather</a></h3>
+        </footer>
+    </div>
 </body>
 </html>
