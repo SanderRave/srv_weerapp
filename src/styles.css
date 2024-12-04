@@ -45,6 +45,21 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#tidal-info p {
+    font-size: 1em;
+    line-height: 1.5; /* Zorg voor nette verticale ruimte */
+  }
+  
+  #tidal-info span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .MoonPhaseIcon {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
 button, a.btn {
     background-color: #FF8000;
     color: white;
