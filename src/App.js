@@ -63,15 +63,15 @@ function App() {
         <section id="current-conditions">
           <h2>Current Conditions</h2>
           <p>Tidal Stream: <span id="tidal-stream">2.5 knots</span></p>
-          <p>Wind Direction: <span id="wind-direction">NE</span></p>
-          <p>Wave Height: <span id="wave-height">1.2 meters</span></p>
+          <p>Wind Direction: <span id="wind-direction">NW</span></p>
+          <p>Wave Height: <span id="wave-height">1.2 meters, 6 seconds</span></p>
         </section>
 
         <section id="forecast">
           <h2>3-Hour Forecast</h2>
           <p>Tidal Stream: <span id="forecast-tidal-stream">2.8 knots</span></p>
-          <p>Wind Direction: <span id="forecast-wind-direction">E</span></p>
-          <p>Wave Height: <span id="forecast-wave-height">1.5 meters</span></p>
+          <p>Wind Direction: <span id="forecast-wind-direction">W</span></p>
+          <p>Wave Height: <span id="forecast-wave-height">1.5 meters, 5 seconds</span></p>
         </section>
 
         <section id="tidal-info">
