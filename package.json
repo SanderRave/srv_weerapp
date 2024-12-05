@@ -45,9 +45,9 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "customize-cra": "^1.0.0",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "react-app-rewired": "^2.2.1",
     "workbox-webpack-plugin": "^7.1.0"
   },
-  "proxy": "https://waterwebservices.rijkswaterstaat.nl"
+  "proxy": "http://localhost:5001"
 }
