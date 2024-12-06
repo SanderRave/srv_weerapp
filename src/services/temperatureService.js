@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5001'; // Backend server URL
+const API_BASE_URL = 'https://scheveningen-weerapp.onrender.com'; // Backend server URL
 
 export async function fetchTemperatureData() {
   try {
