@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/srv_weerapp/static/css/main.0de8e2fc.css",
-    "main.js": "/srv_weerapp/static/js/main.1f7ca2f7.js",
+    "main.js": "/srv_weerapp/static/js/main.ceb9725b.js",
     "static/js/453.c693e64f.chunk.js": "/srv_weerapp/static/js/453.c693e64f.chunk.js",
     "workbox-7e1bcf14.js.map": "/srv_weerapp/workbox-7e1bcf14.js.map",
     "workbox-7e1bcf14.js": "/srv_weerapp/workbox-7e1bcf14.js",
@@ -9,11 +9,11 @@
     "service-worker.js": "/srv_weerapp/service-worker.js",
     "index.html": "/srv_weerapp/index.html",
     "main.0de8e2fc.css.map": "/srv_weerapp/static/css/main.0de8e2fc.css.map",
-    "main.1f7ca2f7.js.map": "/srv_weerapp/static/js/main.1f7ca2f7.js.map",
+    "main.ceb9725b.js.map": "/srv_weerapp/static/js/main.ceb9725b.js.map",
     "453.c693e64f.chunk.js.map": "/srv_weerapp/static/js/453.c693e64f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0de8e2fc.css",
-    "static/js/main.1f7ca2f7.js"
+    "static/js/main.ceb9725b.js"
   ]
 }
